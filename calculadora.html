@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vierport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="assets/css/calculadora.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <img class="logo" src="./imagenes/logo2.jpg" alt="" />
+
+    </header>
+
+    <div class="general">
+
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <div class="operadores">
+            <button onclick="calculadora('suma')">+</button>
+            <button onclick="calculadora('resta')">-</button>
+            <button onclick="calculadora('multiplicacion')">*</button>
+            <button onclick="calculadora('division')">/</button>
+
+
+        </div>
+
+
+
+        <br>
+        <label class="texto" for="Name">El total de la operacion es:
+            <div id="resul"></div>
+        </label>
+
+
+
+
+
+    </div>
+
+    <script src="assets/JS/calculadora.js"></script>
+
+
+    <footer>
+        <div class="final">
+            Copyright © 2020 Todos los derechos reservados - BICTIA
+            <br>
+            Bogotá - Colombia
+        </div>
+    </footer>
+
+</body>
+
+</html>

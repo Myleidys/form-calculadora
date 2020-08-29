@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vierport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <img class="logo" src="./imagenes/logo2.jpg" alt="" />
+
+
+    </header>
+
+    <form class="formContact" onsubmit="ValidadFormulario(event)">
+        <div class="general">
+            <div class="conInput">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Ingresa el nombre" id="name">
+                <small id="mensajeAlertaNombre" class="mensajeAlertaInputs"></small>
+            </div>
+
+            <div class="conInput">
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="Ingresa el apellido" id="apellido">
+                <small id="mensajeAlertaApellido" class="mensajeAlertaInputs"></small>
+            </div>
+
+
+            <div class="conInput">
+                <label for="telefono">Telefono</label>
+                <input type="number" placeholder="Ingresa el telefono" id="telefono">
+                <small id="mensajeAlertaTelefono" class="mensajeAlertaInputs"></small>
+            </div>
+
+
+            <div class="conInput">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="Ingresa el correo" id="correo">
+                <small id="mensajeAlertaCorreo" class="mensajeAlertaInputs"></small>
+            </div>
+
+
+            <div class="conInput">
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Ingresa la Contraseña" id="password">
+                <small id="mensajeAlertaPassword" class="mensajeAlertaInputs"></small>
+            </div>
+
+            <div class="conInput inputTyC">
+                <label for="inputTyC">Acepta terminos y condiciones</label>
+                <input type="checkbox" id="inputTyC">
+            </div>
+            <small id="mensajeAlertaTyC" class="mensajeAlertaInputs"></small>
+
+
+            <input type="submit" value="Enviar" class="btnEnviar">
+        </div>
+    </form>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/JS/form.js"></script>
+
+    <footer>
+        <div class="final">
+            Copyright © 2020 Todos los derechos reservados - BICTIA
+            <br>
+            Bogotá - Colombia
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

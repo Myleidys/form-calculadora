@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-header {
+    background-color: #008B8B;
+    color: white;
+    height: 90px;
+}
+
+
+
+.general {
+    background-color: #20B2AA;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+
+}
+
+
+
+.formContact {
+    padding: 25px 25px 25px 25px;
+}
+
+.conInput {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+label {
+    margin: 5px;
+    color: #083f3f;
+    text-align: justify;
+
+}
+
+.inputTyC> {
+    justify-content: center;
+
+}
+
+.inputTyC>label {
+    order: 2;
+}
+
+
+
+
+.btnEnviar {
+    background-color: #002020;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.btnEnviar:hover {
+    background-color: #198f8f;
+
+
+
+}
+
+input {
+    border-radius: 10px;
+    background-color: #e8f3f3;
+    border: none;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #008B8B;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+
+
+
+}
